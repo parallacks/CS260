@@ -1,0 +1,59 @@
+body{
+  background-color: #efefef;
+  color: #1b685b;
+}
+
+h1{
+  color: #41b5a1;
+  border-bottom: 3px solid #41b5a1;
+  font-family: "Calibri", Calibri, sans-serif;
+
+}
+
+h2{
+  color: #249683;
+  border-bottom: 3px solid #249683;
+  font-family: "Calibri", Calibri, sans-serif;
+}
+
+p{
+  color: #a66dbc;
+  font-family: "Calibri", Calibri, sans-serif;
+}
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+nav li{
+  display: inline;
+  float: left;
+
+}
+nav li a{
+  display: block;
+  padding: 8px;
+  background-color: #a9a9a9;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Calibri", Calibri, sans-serif;
+  color: #efefef;
+}
+nav li a:hover{
+  background-color: #808080;
+}
+.active{
+  background-color: #85489d;
+  color: #efefef
+}
+section{
+  display: flex;
+}
+aside{
+  flex: 1
+}
+article{
+  flex: 6
+}
+/*purple #a66dbc turqoise #41b5a1 light grey #EFEFEF*/
